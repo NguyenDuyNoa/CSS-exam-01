@@ -1,0 +1,282 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(211, 211, 211);
+}
+
+header {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+img{
+    width: 100%;
+}
+
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* margin-bottom: 20px; */
+}
+
+.title {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    margin-left: 20px;
+}
+
+button {
+    border: #000 2px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+/* Main */
+.main {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+    border: 1px #969696 solid ;
+
+}
+
+.content {
+    padding: 20px;
+}
+
+.container-content {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.script {
+    padding: 20px 0;
+}
+
+.button {
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.like {
+    float: left;
+}
+
+.replies {
+    float: right;
+}
+
+.replies button {
+    background: #000;
+    color: white;
+}
+
+.comment{
+    display: flex;
+    align-items: center;
+}
+
+.comment img{
+    margin: 20px 40px 20px 0;
+    width: 60px;
+}
+
+.comment div p{
+    margin: 10px 0;
+}
+
+.navbar {
+    margin: 20px 30px 0 0;
+}
+.my-name{
+    background: #000;
+    padding-bottom: 10px;
+}
+.text-in-my-name{
+    color: white;
+    margin: 20px;
+}
+.text-in-my-name h3{
+    padding-bottom: 10px;
+}
+
+.popular-posts{
+    background: blue;
+    margin-top: 20px;
+}
+
+.title-navbar{
+    height: 50px;
+    background: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.title-navbar h3{
+    padding-left: 20px;
+}
+.tag{
+    padding: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.tag img{
+    width: 50px;
+}
+.text-tag{
+    padding-left: 20px;
+}
+
+.advertise{
+    background: white;
+    margin: 20px 0;
+}
+.box{
+    height: 300px;
+    padding-bottom: 20px;
+}
+.box-in-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+    background: #969696;
+}
+.tags{
+    background: white;
+}
+.tags-content{
+    display: inline-flex; 
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.tags-content h4{
+    font-weight: 400;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: white; padding: 5px;
+    margin: 5px ;
+}
+.tags-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    background: #c7c7c7;
+    padding: 5px;
+    margin: 5px ;
+}
+
+.inspiration{
+    margin-top: 20px;
+    background: white;
+    padding-bottom: 5px;
+}
+.imgs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 10px;
+    gap: 10px;
+}
+.folow-me{
+    margin-top: 20px;
+    background: white;
+}
+.social-media{
+    padding: 10px;
+}
+.subcribe{
+    margin-top: 20px;
+    background: white;
+    padding-bottom: 5px;
+}
+
+.subcribe-content{
+    margin: 10px;
+}
+
+.subcribe-content input {
+    width: 100%;
+    padding: 5px 0 ;
+    margin-right: 5px;
+    margin-top: 10px;
+    border: #000 1px solid;
+}
+
+.subcribe-content button{
+    width: 100%;
+    background: orangered;
+    color: white;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    background: #969696;
+}
+
+.footer{
+    padding: 20px;
+}
+
+.footer button{
+    background: #000;
+    color: white;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.footer i{
+    padding: 10px;
+}
